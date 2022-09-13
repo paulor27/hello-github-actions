@@ -12,6 +12,8 @@ jobs:
   job2:
     runs-on: ubuntu-latest
     steps:
+      - name: checkO
+        uses: actions/checkout@v1
       - name: pwd
         run: pwd
       - name: ls -l
