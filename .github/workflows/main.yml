@@ -12,9 +12,10 @@ jobs:
   job2:
     runs-on: ubuntu-latest
     steps:
-      - name: echo hello
-        run: echo "HELLO"
-
+      - name: pwd
+        run: pwd
+      - name: ll
+        run: ll
       - name: call reusable wf
         uses: ./.github/workflows/reusable-wf.yml@main
         #uses: .github/workflows/reusable-wf.yml@main
