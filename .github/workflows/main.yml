@@ -16,7 +16,8 @@ jobs:
         run: echo "HELLO"
 
       - name: call reusable wf
-        uses: .github/workflows/reusable-wf.yml@main
+        uses: ./.github/workflows/reusable-wf.yml@main
+        #uses: .github/workflows/reusable-wf.yml@main
         #uses: paulor27/hello-github/actions/.github/workflows/reusable-wf.yml@main
       #- uses: ./action-a
       #  with:
