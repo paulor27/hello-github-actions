@@ -1,12 +1,12 @@
 name: A workflow for my Hello World file
-#on: push
 on:
   workflow_call:
-  #workflow_dispatch:
+
 jobs:
   build:
     name: Called workflow
     runs-on: ubuntu-latest
     steps:
-      - run: echo "THIS IS THE CALLED WF"
+      - name: this is the reusable
+        run: echo "THIS IS THE CALLED WF"
 
