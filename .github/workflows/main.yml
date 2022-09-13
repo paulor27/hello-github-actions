@@ -10,11 +10,13 @@ jobs:
         uses: actions/checkout@v1
 
   job2:
-    #uses: paulor27/hello-github/actions/.github/workflows/reusable-wf.yml
     runs-on: ubuntu-latest
     steps:
-      - name: call reusable wf
+      - name: echo hello
         run: echo "HELLO"
+
+      - name: call reusable wf
+      - uses: paulor27/hello-github/actions/.github/workflows/reusable-wf.yml
       #- uses: ./action-a
       #  with:
       #    MY_NAME: "Mona"
