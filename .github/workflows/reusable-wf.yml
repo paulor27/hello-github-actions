@@ -7,7 +7,5 @@ jobs:
     name: Called workflow
     runs-on: ubuntu-latest
     steps:
-      - run: |
-        echo "THIS IS THE CALLED WF"
-        echo "THIS IS THE CALLED WF"
+      - run: echo "THIS IS THE CALLED WF"
 
