@@ -11,4 +11,4 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-      - uses: paulor27/.github/workflows/reusable-wf.yml@main
+      - uses: paulor27/hello-github-actions/.github/workflows/reusable-wf.yml@main
