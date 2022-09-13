@@ -14,8 +14,8 @@ jobs:
     steps:
       - name: pwd
         run: pwd
-      - name: ll
-        run: ll
+      - name: ls -l
+        run: ls -l
       - name: call reusable wf
         uses: ./.github/workflows/reusable-wf.yml@main
         #uses: .github/workflows/reusable-wf.yml@main
