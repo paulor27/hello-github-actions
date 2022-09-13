@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./action-a
-        with:
-          MY_NAME: "Mona"
+      #- uses: ./action-a
+      #  with:
+      #    MY_NAME: "Mona"
       - uses: ./.github/workflows/reusable-wf.yml@main
