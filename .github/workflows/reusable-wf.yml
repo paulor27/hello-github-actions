@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo "THIS IS THE CALLED WF - reusable-wf.yml"
+        echo "THIS IS THE CALLED WF"
 
