@@ -21,7 +21,7 @@ jobs:
       - name: call reusable wf
         run: ls -l
 
-      uses: paulor27/hello-github-actions/.github/workflows/reusable-wf.yml@main
+      - uses: paulor27/hello-github-actions/.github/workflows/reusable-wf.yml@main
 
   job3:
     uses: paulor27/hello-github-actions/.github/workflows/reusable-wf.yml@main
