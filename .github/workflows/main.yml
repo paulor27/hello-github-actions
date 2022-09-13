@@ -19,4 +19,5 @@ jobs:
       - name: ls -l
         run: ls -l
       - name: call reusable wf
+        run: ls -l
 
