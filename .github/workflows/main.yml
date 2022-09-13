@@ -20,5 +20,6 @@ jobs:
         run: ls -l
 
   call-reusable-wf:
+    runs-on: ubuntu-latest
     uses: paulor27/hello-github-actions/.github/workflows/reusable-wf.yml@main
 
